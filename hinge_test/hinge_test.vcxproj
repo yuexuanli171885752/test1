@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cylinder_motor_motion.cpp" />
+    <ClCompile Include="hinge_cap.cpp" />
+    <ClCompile Include="io_input.cpp" />
+    <ClCompile Include="motor_cfg.cpp" />
+    <ClCompile Include="ctsInf.cpp" />
+    <ClCompile Include="cvbs_tsw_360e.cpp" />
+    <ClCompile Include="guide_line.cpp" />
+    <ClCompile Include="histogram.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="image_info.cpp" />
+    <ClCompile Include="import_dll.cpp" />
+    <ClCompile Include="inf_motion.cpp" />
+    <ClCompile Include="interface.cpp" />
+    <ClCompile Include="IOMonitorMenu.cpp" />
+    <ClCompile Include="io_output.cpp" />
+    <ClCompile Include="io_kernel.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="mdlg.cpp" />
+    <ClCompile Include="measure.cpp" />
+    <ClCompile Include="motor_trigger.cpp" />
+    <ClCompile Include="motion_cfg.cpp" />
+    <ClCompile Include="raw_config.cpp" />
+    <ClCompile Include="read_cntr.cpp" />
+    <ClCompile Include="recipe.cpp" />
+    <ClCompile Include="rs232.cpp" />
+    <ClCompile Include="site_task.cpp" />
+    <ClCompile Include="sm101.cpp" />
+    <ClCompile Include="sm102.cpp" />
+    <ClCompile Include="sm103.cpp" />
+    <ClCompile Include="sm104.cpp" />
+    <ClCompile Include="sm105.cpp" />
+    <ClCompile Include="hinge_AA.cpp" />
+    <ClCompile Include="tcpip.cpp" />
+    <ClCompile Include="tcp_ip.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test_config.cpp" />
+    <ClCompile Include="test_light.cpp" />
+    <ClCompile Include="test_reg_mark_chart.cpp" />
+    <ClCompile Include="test_std_chart.cpp" />
+    <ClCompile Include="test_white.cpp" />
+    <ClCompile Include="ts_screen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avb_dec.h" />
+    <ClInclude Include="defio.h" />
+    <ClInclude Include="motion_cfg.h" />
+    <ClInclude Include="s_define.h" />
+    <ClInclude Include="cts.h" />
+    <ClInclude Include="d3drm.h" />
+    <ClInclude Include="declare.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="DXMediaCap.h" />
+    <ClInclude Include="err_def.h" />
+    <ClInclude Include="fun_num.h" />
+    <ClInclude Include="img_cap_device.h" />
+    <ClInclude Include="import_dll.h" />
+    <ClInclude Include="inf_cap_bd.h" />
+    <ClInclude Include="inf_motion_aa.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="mem_def.h" />
+    <ClInclude Include="motor_io.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="rs232.h" />
+    <ClInclude Include="shm.h" />
+    <ClInclude Include="tcpip.h" />
+    <ClInclude Include="tcp_ip.h" />
+    <ClInclude Include="test_light.h" />
+    <ClInclude Include="test_reg_mark_chart.h" />
+    <ClInclude Include="test_std_chart.h" />
+    <ClInclude Include="test_white.h" />
+    <ClInclude Include="UniDAQ.h" />
+    <ClInclude Include="XTrace.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BMP\aview.bmp" />
+    <None Include="bmp\bitmap1.bmp" />
+    <None Include="BMP\config.bmp" />
+    <None Include="BMP\curve.bmp" />
+    <None Include="BMP\guide.bmp" />
+    <None Include="BMP\histogram.bmp" />
+    <None Include="BMP\info.bmp" />
+    <None Include="BMP\log.bmp" />
+    <None Include="BMP\login.bmp" />
+    <None Include="BMP\login.png" />
+    <None Include="BMP\measure.bmp" />
+    <None Include="BMP\msfr.bmp" />
+    <None Include="BMP\recipe.bmp" />
+    <None Include="BMP\save.bmp" />
+    <None Include="BMP\sfr.bmp" />
+    <None Include="BMP\st.bmp" />
+    <None Include="BMP\title.bmp" />
+    <None Include="BMP\title_en.bmp" />
+    <None Include="BMP\x.bmp" />
+    <None Include="BMP\zoom_in.bmp" />
+    <None Include="C:\Users\Administrator\Desktop\chart-icon.png" />
+    <None Include="icon\Accept.ico" />
+    <None Include="icon\close.ico" />
+    <None Include="icon\connect.ico" />
+    <None Include="icon\connect1.ico" />
+    <None Include="icon\disconnect.ico" />
+    <None Include="icon\down.ico" />
+    <None Include="icon\icon1.ico" />
+    <None Include="icon\icon2.ico" />
+    <None Include="icon\log.ico" />
+    <None Include="icon\logo+.ico" />
+    <None Include="icon\logo.ico" />
+    <None Include="icon\logo_aa.ico" />
+    <None Include="icon\next.ico" />
+    <None Include="icon\open.ico" />
+    <None Include="icon\save.ico" />
+    <None Include="icon\snapshot.ico" />
+    <None Include="icon\start.ico" />
+    <None Include="icon\stop.ico" />
+    <None Include="icon\up.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hinge_test.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A26ED93E-5BBC-4199-B4E7-589F6573DE21}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ai_t10</RootNamespace>
+    <ProjectName>hinge_test</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
+    <IncludePath>E:\openCV\opencv\build\include;E:\openCV\opencv\build\include\opencv2;E:\openCV\opencv\build\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\openCV\lib;E:\openCV\opencv\build\x86\vc10\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin</OutDir>
+    <GenerateManifest>true</GenerateManifest>
+    <IncludePath>.\DirectShow\include;c:\opencv\build\include\opencv;c:\opencv\build\include;c:\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>.\DirectShow\lib;c:\openCV\opencv\build\x86\vc10\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalDependencies>opencv_ts2410.lib;opencv_calib3d2410.lib;opencv_core2410.lib;opencv_imgproc2410.lib;opencv_video2410.lib;opencv_highgui2410.lib;opencv_photo2410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+    <ResourceCompile>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>c:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <ResourceCompile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake>
+    <Manifest>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

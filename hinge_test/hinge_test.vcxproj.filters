@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="import_dll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="recipe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="raw_config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="histogram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="measure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="guide_line.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="image_info.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_std_chart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_reg_mark_chart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="read_cntr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sm101.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sm102.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sm103.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sm104.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ts_screen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io_kernel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rs232.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_ip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cvbs_tsw_360e.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ctsInf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hinge_AA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOMonitorMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sm105.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="site_task.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inf_motion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder_motor_motion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="motor_trigger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="motor_cfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_cfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io_output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io_input.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hinge_cap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_white.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="import_dll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_std_chart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_reg_mark_chart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_white.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMediaCap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="declare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="err_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fun_num.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inf_motion_aa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="motor_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rs232.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_ip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="img_cap_device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XTrace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inf_cap_bd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="s_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="defio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UniDAQ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="avb_dec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_cfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\logo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\title_en.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\start.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\stop.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\down.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\up.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\next.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\close.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\open.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\save.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\Accept.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\msfr.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\sfr.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\st.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\log.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\curve.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\x.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\config.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\recipe.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\login.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\aview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\chart-icon.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\login.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bmp\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\zoom_in.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\info.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\histogram.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\guide.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\measure.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\save.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BMP\title.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\connect.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\log.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\logo+.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\logo_aa.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\snapshot.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\icon2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\connect1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="icon\disconnect.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hinge_test.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

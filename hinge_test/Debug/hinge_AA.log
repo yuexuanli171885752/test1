@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/1/22 10:17:30。
+     1>项目“D:\hinge_test\hinge_AA\hinge_AA.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+         正在创建目录“..\..\..\AA\bin\”。
+     1>InitializeBuildStatus:
+         正在创建“D:\hinge_test\hinge_AA\Debug\hinge_test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\hinge_test\hinge_AA\Debug\\" /Fd"D:\hinge_test\hinge_AA\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cylinder_motor_motion.cpp hinge_cap.cpp io_input.cpp motor_cfg.cpp ctsInf.cpp cvbs_tsw_360e.cpp guide_line.cpp histogram.cpp image.cpp image_info.cpp import_dll.cpp inf_motion.cpp interface.cpp IOMonitorMenu.cpp io_output.cpp io_kernel.cpp log.cpp mdlg.cpp measure.cpp motor_trigger.cpp motion_cfg.cpp raw_config.cpp read_cntr.cpp recipe.cpp rs232.cpp site_task.cpp sm101.cpp sm102.cpp sm103.cpp sm104.cpp sm105.cpp hinge_AA.cpp tcpip.cpp tcp_ip.cpp test.cpp test_config.cpp test_reg_mark_chart.cpp test_std_chart.cpp ts_screen.cpp
+         ts_screen.cpp
+         test_std_chart.cpp
+     1>已完成生成项目“D:\hinge_test\hinge_AA\hinge_AA.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.33
